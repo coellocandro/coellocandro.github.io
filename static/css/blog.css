@@ -4,6 +4,10 @@
 }
 
 .main-about-me img { 
+    max-width:550px;
+    max-height:450px;
+    height:400px;
+    width:auto;
 }
 
 .blog-header {
