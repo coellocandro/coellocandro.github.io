@@ -53,7 +53,7 @@ body {
   font-size: 1.1em !important;
 }
 
-.contact.availability {
+.contact-availability {
   font-style: italic;
   color: rgba(255, 255, 255, .5);
   padding-bottom: 1em;
