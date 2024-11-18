@@ -1,139 +1,63 @@
-<!DOCTYPE html>
-<html lang="en">
-
-  <head>
-    <meta charset="UTF-8">
-    <title>About Me</title>
-    
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"  crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"  crossorigin="anonymous"></script>
-    
-    <link rel="stylesheet" href="static/css/blog.css">
-    <link rel="stylesheet" href="static/css/navbar.css">
-</head>
-<header>
-  <nav class="navbar navbar-expand-md navbar-dark fixed-top navbar-bg">
-      <a class="navbar-brand" href="index.html">Coel Locandro</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    
-      <div class="collapse navbar-collapse" id="navbarsExample04">
-        <ul class="navbar-nav ml-auto justify-content-end">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="about-me.html">About Me<span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="projects.html">Projects</a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-        </ul>
-      </div>
-    </nav>
-</header>
 <body>
-  <div class="container jumbotron mt-5 text-white rounded navbar-bg">
-    <div class="col-md-5 px-0">
-      <h1 class="display-4 font-italic"></h1> 
-      <!-- <p class="lead my-3"></p> -->
-      <!-- <p class="lead mb-0"><a href="#" class="text-white font-weight-bold"></a></p> -->
-    </div>
-  </div>
-
-<main role="main" class="container">
-  <div class="row">
-    <div class="col-sm-9 ">
-      <div>
+  <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+    <header class="masthead mb-auto">
+        <div class="inner">
+            <h3 class="masthead-brand">
+              <a href="index.html">Coel Locandro</a>
+            </h3>
+            <nav class="nav nav-masthead justify-content-center">
+              <a class="nav-link" href="index.html">Home</a>
+              <a class="nav-link" href="about-me.html">About Me</a>
+              <a class="nav-link" href="projects.html">Projects</a>
+              <a class="nav-link active" href="contact.html">Contact<span class="sr-only">(current)</span></a>
+            </nav>
+          </div>
+    </header>
+          
+    <main role="main" class="inner cover text-center">
+      <h1 class="above-calendar contact-msg">Schedule a meeting</h1>
         <div class="row">
-          <div class="col-sm-4 main-about-me">
-            <h3>About Me</h3>
-              <p>Hey, I'm Coel - Data Analyst & Manager with experience in eCommerce, Logistics & Manufacturing (Science) industries.</p>
-              <p>Most recently, I consulted top CPG Brands on marketing technologies & strategy, and led a team who implemented content management systems & API configuration to major retailers worldwide!</p>
-              <p>My <a href="https://github.com/ordnah">GitHub</a> shows more of my skills and interests, such as volunteering to help protect endangered elephants in Africa via Machine Learning!</p>
-          </div>
-          <img class="col-sm-4" src="static/resources/headshot_2025.png"/>
+          <iframe class="embed-responsive-item" src="https://calendar.google.com/calendar/embed?height=400&amp;wkst=1&amp;ctz=America%2FChicago&amp;mode=WEEK&amp;showPrint=0&amp;src=MjY4MzYyYzU3NWNmNWMyNmVkZmVhYTUwY2FmYzY3YTYwZDUxYWU1YzRjMDVjM2VlNzkwZGMwZGUzODUyOWFhMEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&amp;src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%238E24AA&amp;color=%230B8043" style="border-width:0" width="600" height="400" frameborder="0" scrolling="no"></iframe>
         </div>
-        <hr>
-        <h3>Skills</h3>
-        <div class="row technical-skills">
-          <div class="col-sm-4">
-            <h6>Languages</h6>
-            <ul>
-              <li>Python, JavaScript</li>
-              <li>VBA, SQL, R, Salsify</li>
-              <li>HTML, CSS</li>
-            </ul>
+
+        <div class="below-calendar contact-availability">
+          <div class="contact-availability">Current Availability</p>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6">
+            <div class="panel panel-primary">
+              <h3 class="panel-title">&nbsp;</h3>
+            </div>
+              <div class="panel-body">
+              <ul>
+                <li><b>Email: </b> <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;tf=1&amp;to=coellocandro@gmail.com" target="_blank">&hairsp;coellocandro@gmail.com</a>
+                  <br>
+                <li><b>Phone: </b> <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;tf=1&amp;to=coellocandro@gmail.com" target="_blank">618-210-8928</a>
+            </div>
           </div>
-          <div class="col-sm-4">
-            <h6>Data Wrangling & Visualization</h6>
-            <ul>
-              <li>Tableau, Seaborn</li>
-              <li>Matplotlib, Pandas</li>
-              <li>QGIS, Leaflet, Plotly</li>
-            </ul>
-          </div>
-          <div class="col-sm-4">
-            <h6>Analysis</h6>
-            <ul>
-              <li><a href="https://github.com/OrdnaH/Global-Earthquake-Activity">Global Earthquake Activity</a></li>
-              <li><a href="https://github.com/OrdnaH/Surfs-Up">Climate Analysis</a></li>
-              <li><a href="https://github.com/OrdnaH/Citi-Bike-Analysis">Citi-Bike Analysis</a></li>
-            </ul>
+
+          <div class="col-sm-6">
+            <div class="panel panel-primary">
+              <div class="panel-heading">
+                <h3 class="panel-title">Social Media</h3>
+              </div> 
+              
+            <div class="panel-body">
+              <ul>
+                <li class="contact-social"><a href="https://github.com/coellocandro/">GitHub</a></li>
+                <li class="contact-social"><a href="https://www.linkedin.com/in/coellocandro/">LinkedIn</a></li>
+              </ul>
+            </div>
           </div>
         </div>
-        <hr>
-        <h3>Interests</h3>
-          <ul>
-            <li>Latest Technology & AI applications</li>
-            <li>Camping, Hiking, Fishing, Jogging</li>
-            <li>St. Louis Blues Hockey</li>
-          </ul>
       </div>
+    </main>
 
-    </div>
-
-    <aside class="col-sm-3 blog-sidebar">
-      <div class="p-3 mb-3 bg-light rounded">
-        <h4 class="font-italic">My Resume</h4>
-        <p class="mb-0">
-            <a href="static/resources/Coel Locandro Resume May 2024.docx" class="btn btn-lg btn-secondary" download>View</a>
-        </p>
+    <footer class="mastfoot mt-auto">
+      <div class="inner">
+        <p>Created by: Coel Locandro</p>
       </div>
+    </footer>
 
-      <div class="p-3">
-        <h4 class="font-italic"><a style="text-decoration: none; color: inherit" href="projects.html">Projects</a></h4>
-        <ol class="list-unstyled mb-0">
-          <li><a href="https://github.com/OrdnaH/Top-Global-Headlines">• Top Global Headlines</a></li>
-          <li><a href="https://github.com/OrdnaH/Instacart-Analysis">• Instacart Consumer Analysis</a></li>
-          <li><a href="https://github.com/OrdnaH/Project-Oliphant-Abstract">• Exploratory Analysis of
-            <br>
-            &nbsp;&hairsp;Elephant Poaching Data</a></li>
-        </ol>
-      </div>
-
-      <div class="p-3">
-        <h4 class="font-italic">Social Media</h4>
-        <ol class="list-unstyled">
-          <li><a href="https://github.com/ordnah"><b>&raquo;</b> GitHub</a></li>
-          <li><a href="https://www.linkedin.com/in/coellocandro/"><b>&raquo;</b> LinkedIn</a></li>
-          <li><a href="https://calendar.google.com/calendar/u/1/embed?src=268362c575cf5c26edfeaa50cafc67a60d51ae5c4c05c3ee790dc0de38529aa0@group.calendar.google.com&ctz=America/Chicago&csspa=1&mode=WEEK&wkst=2"> <b>&raquo;</b>Schedule a Meeting!</a></li>
-          <br>
-          <!-- 
-          <br>
-          <br>
-          <br>
-          -->
-        </ol>
-      </div>
-    </aside>
-
-  </div>
-</body>
-</html>
+</body
